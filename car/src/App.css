@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/050/358/476/small_2x/a-closeup-shot-of-a-vintage-cars-headlights-creating-a-nostalgic-sunset-silhouette-that-takes-us-back-in-time-photo.jpg");
+  background-size:cover;
+  color: #fff;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+.auth-form, .prediction-page {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.auth-form h2, .prediction-page h2 {
+  color: #333;
+}
+
+/* Form Inputs and Button Styles */
+input, select, button {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+select {
+  background-color: #fff;
+}
+
+/* Prediction Result Style */
+.price-result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.auth-form form h2 {
+  color: #333;
+}
+
+/* Link Styles */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .auth-form, .prediction-page {
+    margin: 30px auto;
+    padding: 15px;
+    width: 90%;
+  }
+}
